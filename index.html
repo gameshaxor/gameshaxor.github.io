@@ -1,1 +1,436 @@
-<p>Hacked by LoneCipher</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Samuel Pasaribu — Cyber Architect</title>
+
+    <!-- Primary Meta -->
+    <meta name="title" content="Samuel Pasaribu · Independent Programmer & Cyber Architect">
+    <meta name="description" content="Personal profile of Samuel Pasaribu — an independent self-taught programmer and cyber architect focused on web & app development, digital security, and efficient system design. Introvert by nature, builder by passion.">
+    <meta name="keywords" content="Samuel Pasaribu, independent programmer, self taught developer, cyber architect, web developer, app developer, cybersecurity, firebase developer, hacker mindset, introvert programmer, software engineer indonesia">
+    <meta name="author" content="Samuel Pasaribu">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://samuel.haxorai.com">
+    <meta property="og:title" content="Samuel Pasaribu · Independent Programmer & Cyber Architect">
+    <meta property="og:description" content="Discover the work, skills, and journey of Samuel Pasaribu — a self-taught programmer building secure, efficient, and meaningful digital systems with a hacker mindset.">
+    <meta property="og:image" content="img/haxorai-by-samuel.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Samuel Pasaribu · Independent Programmer">
+    <meta name="twitter:description" content="Self-taught programmer & cyber architect. Building web apps, secure systems, and digital solutions with a hacker mindset.">
+    <meta name="twitter:image" content="img/haxorai-by-samuel.webp">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://samuel.haxorai.com">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.svg" />
+    <link rel="icon" href="img/haxorai-by-samuel.webp" type="image/png" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" defer></script>
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar" id="sidebar">
+            <span class="sidebar-close" id="sidebarClose">&times;</span>
+            <div class="sidebar-header" onclick="window.location.href='https://www.haxorai.com'">
+                <img src="img/samuelpasaribu.png" alt="HaxorAI">
+                Samuel Pasaribu
+            </div>
+
+            <nav class="sidebar-menu">
+                <button class="active" data-section="identity"><span class="icon-programmer"></span> Identity</button>
+                <button data-section="expertise"><span class="icon-roadmap"></span> Expertise</button>
+                <button data-section="works"><span class="icon-works"></span> Works</button>
+                <button data-section="logs"><span class="icon-logs"></span> Logs</button>
+                <button data-section="contact"><span class="icon-contact"></span> Contact</button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="sidebar-programmer">
+                    <img src="img/favicon.svg" alt="HaxorAI">
+                    HaxorAI by Samuel
+                </div>
+            </div>
+        </aside>
+
+        <!-- OVERLAY -->
+        <div class="overlay" id="overlay"></div>
+
+        <!-- CONTENT -->
+        <div class="content">
+            <span class="menu-btn" id="menuBtn" aria-label="Menu"></span>
+            <header class="user">
+                <a href="https://www.youtube.com/@haxorai" target="_blank" rel="noopener noreferrer" class="user-link">
+
+                    <span class="user-icon youtube" aria-hidden="true"></span>
+                    <span class="username">Youtube</span>
+
+                </a>
+            </header>
+
+            <main>
+
+                <!-- SUPPORT -->
+                <section id="identity" class="active">
+                    <!-- Profile Ring -->
+                    <div class="profile-ring">
+                        <img src="img/samuelpasaribu.png" alt="Samuel Pasaribu" />
+                    </div>
+                    <!-- Profile Action Menu -->
+<div class="profile-menu" id="profileMenu">
+  <button id="viewProfile"><i class="profile"></i> Lihat Profile</button>
+  <button id="viewStatus"><i class="view"></i> Lihat Status</button>
+</div>
+
+                    <span class="verified">samuelpasaribu</span>
+                    <h2>Samuel Pasaribu</h2>
+                    <p>
+                        Saya seorang programmer independen yang membangun dan mengelola sistem web app, mulai dari desain, fitur, hingga keamanan.
+                    </p>
+                    <!-- Hacker Roadmap -->
+                    <div class="hacker-roadmap">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+
+                            <span class="terminal-title">samuel@haxorai:~$ roadmap</span>
+
+                            <button class="terminal-run" id="runTerminal">RUN</button>
+                        </div>
+
+<pre class="terminal-body">
+#!/bin/sh
+# HAXORAI ROOT KERNEL
+
+user=samuel@haxorai
+mode=root
+
+modules="net db storage auth ui"
+
+enc_skills="UFlUSE9OOjEwMApKUzoxMDAKUEhQOjEwMA=="
+
+identity="Samuel Pasaribu | Cyber Architect"
+
+status=READY
+</pre>
+
+                    </div>
+
+                </section>
+
+                <!-- Expertise -->
+                <section id="expertise">
+                    <h2>Expertise · Technical Capabilities</h2>
+                    <p class="section-desc">
+                        Kemampuan teknis yang dibangun melalui kerja mandiri, real project, dan continuous learning. Fokus pada web development, backend system, dan security-aware engineering.
+                    </p>
+
+                    <div class="timeline">
+
+                        <!-- CORE -->
+                        <div class="timeline-row">
+                            <span class="dot"></span>
+                            <details class="roadcard" open>
+                                <summary>
+                                    <span class="badge">Core</span>
+                                    <span class="title">Web & App Development</span>
+                                    <span class="year">Active</span>
+                                </summary>
+                                <div class="content">
+                                    <ul>
+                                        <li>Membangun website dan web app sesuai kebutuhan user atau request klien</li>
+                                        <li>HTML, CSS, dan JavaScript dengan struktur rapi dan mudah dirawat</li>
+                                        <li>Pengembangan blog, landing page, dan website siap Google AdSense</li>
+                                        <li>Membuat tools, generator, dan utility berbasis web</li>
+                                    </ul>
+                                    <div class="progress"><i style="--w:45%"></i></div>
+                                </div>
+                            </details>
+                        </div>
+
+                        <!-- BACKEND -->
+                        <div class="timeline-row">
+                            <span class="dot"></span>
+                            <details class="roadcard">
+                                <summary>
+                                    <span class="badge">Backend</span>
+                                    <span class="title">Backend Systems & Realtime Logic</span>
+                                    <span class="year">Active</span>
+                                </summary>
+                                <div class="content">
+                                    <ul>
+                                        <li>Pengelolaan backend menggunakan Firebase (Auth, Firestore, Storage)</li>
+                                        <li>Perancangan sistem realtime dengan kontrol akses yang jelas</li>
+                                        <li>Penggunaan database dan server lokal (Firebase, XAMPP, MySQL)</li>
+                                        <li>Scripting backend menggunakan PHP dan Python</li>
+                                    </ul>
+                                    <div class="progress"><i style="--w:30%"></i></div>
+                                </div>
+                            </details>
+                        </div>
+
+                        <!-- PRACTICE -->
+                        <div class="timeline-row">
+                            <span class="dot"></span>
+                            <details class="roadcard">
+                                <summary>
+                                    <span class="badge">Practice</span>
+                                    <span class="title">Security Awareness & Independent Work</span>
+                                    <span class="year">Continuous</span>
+                                </summary>
+                                <div class="content">
+                                    <ul>
+                                        <li>Membuat dan menggunakan tools internal untuk testing dan eksplorasi sistem</li>
+                                        <li>Terbiasa bekerja di lingkungan Linux untuk development dan security testing</li>
+                                        <li>Pemahaman dasar web security, akses kontrol, dan mitigasi risiko</li>
+                                        <li>Mengelola project secara mandiri: deploy, maintain, dan improve</li>
+                                    </ul>
+                                    <div class="progress"><i style="--w:15%"></i></div>
+                                </div>
+                            </details>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="works">
+                    <h2>Works · Active Systems</h2>
+                    <p class="section-desc">
+                        Project dan sistem yang dibangun serta dipelihara secara mandiri.
+                        Fokus pada fungsi nyata, stabilitas, dan keberlanjutan jangka panjang.
+                    </p>
+
+                    <div class="works-grid">
+
+                        <div class="work-node">
+                            <div class="work-header">
+                                <span class="work-name">samuelpasaribu.com</span>
+                                <span class="work-status active">ACTIVE</span>
+                            </div>
+                            <p class="work-desc">
+                                Website personal berisi tools, artikel, dan eksperimen web. Sudah diterima Google AdSense.
+                            </p>
+                            <ul class="work-meta">
+                                <li>Content & tools</li>
+                                <li>AdSense approved</li>
+                                <li>Independently managed</li>
+                            </ul>
+                        </div>
+
+                        <div class="work-node">
+                            <div class="work-header">
+                                <span class="work-name">haxorai.com</span>
+                                <span class="work-status haxorai">IN PROGRESS</span>
+                            </div>
+                            <p class="work-desc">
+                                Identitas dan visi perusahaan independen untuk layanan web, app, dan software.
+                            </p>
+                            <ul class="work-meta">
+                                <li>Company foundation</li>
+                                <li>Service-oriented system</li>
+                                <li>Long-term vision</li>
+                            </ul>
+                        </div>
+
+                        <div class="work-node">
+                            <div class="work-header">
+                                <span class="work-name">Secure Shell Framework</span>
+                                <span class="work-status maintained">MAINTAINED</span>
+                            </div>
+                            <p class="work-desc">
+                                Modular shell framework for authorized security testing, controlled remote access, and advanced developer tooling. Designed for flexibility and precision.
+                            </p>
+                            <ul class="work-meta">
+                                <li>Authorized penetration testing</li>
+                                <li>Controlled remote shell access</li>
+                                <li>Reusable template for dev & security tools</li>
+                            </ul>
+                        </div>
+
+                        <div class="work-node">
+                            <div class="work-header">
+                                <span class="work-name">internal-tools</span>
+                                <span class="work-status private">PRIVATE</span>
+                            </div>
+                            <p class="work-desc">
+                                Kumpulan tools internal dan script eksperimen untuk testing dan eksplorasi sistem.
+                            </p>
+                            <ul class="work-meta">
+                                <li>Testing utilities</li>
+                                <li>Security exploration</li>
+                                <li>Private usage</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- LOGS -->
+                <section id="logs">
+                    <h2>System Logs · Verified Work</h2>
+                    <p class="section-desc">
+                        Sistem independen yang saya kelola secara aktif. Tercatat, terverifikasi, dan terus berkembang bukan janji melainkan hasil nyata.
+                    </p>
+
+                    <div class="sys-logs">
+
+                        <article class="sys-log approved" data-year="2021">
+                            <header class="sys-head">
+                                <span class="sys-dot"></span>
+                                <h3>samuelpasaribu.com</h3>
+                                <span class="sys-badge">ADSENSE · VERIFIED</span>
+                            </header>
+
+                            <div class="sys-body">
+                                <p>Personal web system approved by Google AdSense and actively monetized.</p>
+                                <ul>
+                                    <li><strong>Created:</strong> Jul 17, 2021</li>
+                                    <li><strong>Role:</strong> Owner & Developer</li>
+                                    <li><strong>Type:</strong> Content Platform</li>
+                                    <li><strong>Status:</strong> Production · Stable</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="sys-log building" data-year="2023">
+                            <header class="sys-head">
+                                <span class="sys-dot"></span>
+                                <h3>haxorai.com</h3>
+                                <span class="sys-badge">BUILD · IN PROGRESS</span>
+                            </header>
+
+                            <div class="sys-body">
+                                <p>Independent digital lab for web, app, and secure system development.</p>
+                                <ul>
+                                    <li><strong>Created:</strong> Aug 18, 2023</li>
+                                    <li><strong>Role:</strong> Founder & Architect</li>
+                                    <li><strong>Type:</strong> Software House</li>
+                                    <li><strong>Status:</strong> Active Development</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- CONTACT -->
+                <section id="contact" class="contact-system">
+                    <h2>Contact · Professional Channel</h2>
+                    <p class="section-desc">
+                        Direct communication for project inquiries, collaboration, or professional discussion.
+                        Please select the appropriate channel below.
+                    </p>
+
+                    <!-- Channel Selector -->
+                    <div class="contact-channel">
+                        <button class="channel-btn active" data-channel="wa">
+                            WhatsApp
+                            <small>Fast response</small>
+                        </button>
+                        <button class="channel-btn" data-channel="email">
+                            Email
+                            <small>Formal communication</small>
+                        </button>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" class="contact-form">
+
+                        <!-- Purpose -->
+                        <div class="form-group">
+                            <label>Purpose</label>
+                            <select id="purpose" required>
+                                <option value="">Select purpose</option>
+                                <option value="Project Inquiry">Project Inquiry</option>
+                                <option value="Collaboration">Collaboration</option>
+                                <option value="Consultation">Consultation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Name -->
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" id="name" placeholder="Your full name" required>
+                        </div>
+
+                        <!-- Email (email channel only) -->
+                        <div class="form-group email-only">
+                            <label>Your Email</label>
+                            <input type="email" id="email" placeholder="you@example.com">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="message" placeholder="Describe your inquiry clearly..." required></textarea>
+                        </div>
+
+                        <!-- Action -->
+                        <button type="submit" class="contact-submit">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                    <!-- Contact Info -->
+                    <div class="contact-note">
+                        This communication is handled personally by Samuel Pasaribu.
+                        No automation, no third-party CRM.
+                    </div>
+                </section>
+
+            </main>
+
+            <footer>
+                Copyright © <span id="year"></span> <a href="https://www.haxorai.com" target="_blank" rel="noopener noreferrer">
+                    haxorai.com
+                </a>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Profile Photo Modal -->
+<div class="profile-modal" id="profileModal">
+  <div class="profile-modal-content">
+    <span class="profile-close">&times;</span>
+    <img src="img/samuelpasaribu.png" alt="Samuel Pasaribu">
+  </div>
+</div>
+
+    <!-- MODAL -->
+    <div id="donationModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modalMethod">Donation Method</h3>
+            <p>Use the following number to donate:</p>
+
+            <div id="modalNumberContainer">
+                <p id="modalNumber"></p>
+                <button id="copyBtn">Copy</button>
+            </div>
+
+            <img id="modalQRIS" class="qris" alt="QRIS">
+            <button id="whatsappBtn">Confirm via WhatsApp</button>
+        </div>
+    </div>
+
+<script src="js/script.js" defer></script>
+</body>
+
+</html>
