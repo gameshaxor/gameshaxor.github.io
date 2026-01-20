@@ -1,0 +1,68 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Kuadran 1 -->
+    <path d="M50,50 L50,5 A45,45 0 0,1 95,50 Z" fill="#EA4335" />
+    <!-- Kuadran 2 -->
+    <path d="M50,50 L95,50 A45,45 0 0,1 50,95 Z" fill="#4285F4" />
+    <!-- Kuadran 3 -->
+    <path d="M50,50 L50,95 A45,45 0 0,1 5,50 Z" fill="#34A853" />
+    <!-- Kuadran 4 -->
+    <path d="M50,50 L5,50 A45,45 0 0,1 50,5 Z" fill="#FBBC05" />
+    <!-- Garis tengah -->
+    <circle cx="50" cy="50" r="45" stroke="rgb(27 40 56)" stroke-width="2" fill="none" />
+    <!-- Mask Shape -->
+    <path d="M80 50 A30 30 0 1 1 20 50 A30 30 0 1 1 80 50Z" fill="url(#grad2)" stroke="whitesmoke" stroke-width="2" />
+
+    <!-- Haxor Lock Icon -->
+    <g transform="translate(30, 30) scale(1)"> <!-- Disesuaikan lebih ke atas -->
+        <svg version="1.1" id="HaxorAI_Lock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 200 200" xml:space="preserve">
+
+            <!-- Background Persegi -->
+            <rect x="0" y="0" width="200" height="200" fill="transparent" rx="20" />
+
+            <!-- Handle Gembok -->
+            <path d="M66.1,128.1V59.9c0-18.4,14.9-33.3,33.3-33.3s33.3,14.9,33.3,33.3v36.8" style="fill:none; stroke:whitesmoke; stroke-width:14; stroke-linecap:round; stroke-linejoin:round; stroke-miterlimit:10;" />
+
+            <!-- Body Gembok -->
+            <g id="lock-body" style="transform: translateY(-22px); transition: transform 0.3s ease-in-out;">
+                <rect x="59" y="117.5" width="14.5" height="4.7" style="opacity:0.6; fill:grey;" />
+                <path d="M49.8,175.7c0,3.9,3.1,7,7,7H142c3.8,0,7-3.1,7-7v-48.3c0-3.8-3.2-7-7-7H56.8c-3.9,0-7,3.2-7,7V175.7z" style="fill:hsl(217, 83%, 50%);" />
+
+                <!-- Lubang Kunci / Ikon Jaringan -->
+                <g id="network" style="transform: translateY(0); transition: transform 0.3s ease-in-out;">
+                    <line x1="111.4" y1="141.6" x2="111.4" y2="162.1" style="fill:none; stroke:white; stroke-width:7; stroke-miterlimit:10;" />
+                    <line x1="99.4" y1="147.4" x2="99.4" y2="162.1" style="fill:none; stroke:white; stroke-width:7; stroke-miterlimit:10;" />
+                    <line x1="87.4" y1="151.8" x2="87.4" y2="162.1" style="fill:none; stroke:white; stroke-width:7; stroke-miterlimit:10;" />
+                </g>
+            </g>
+        </svg>
+    </g>
+
+    <!-- Circuit Details -->
+    <line x1="50" y1="20" x2="50" y2="9" stroke="whitesmoke" stroke-width="2" />
+    <circle cx="50" cy="8" r="2" fill="whitesmoke" />
+    <line x1="80" y1="50" x2="93" y2="50" stroke="whitesmoke" stroke-width="2" />
+    <circle cx="92" cy="50" r="2" fill="whitesmoke" />
+    <line x1="20" y1="50" x2="7" y2="50" stroke="whitesmoke" stroke-width="2" />
+    <circle cx="8" cy="50" r="2" fill="whitesmoke" />
+    <line x1="50" y1="93" x2="50" y2="80" stroke="whitesmoke" stroke-width="2" />
+    <circle cx="50" cy="92" r="2" fill="whitesmoke" />
+
+    <!-- LoneCipher Curved Text Inside Face -->
+    <defs>
+        <path id="innerCurve" d="M30 70 Q50 85, 70 70" fill="transparent" />
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(27 40 56); stop-opacity: 1" />
+            <stop offset="100%" style="stop-color: rgb(27 40 56); stop-opacity: 1" />
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(27 40 56); stop-opacity: 1" />
+            <stop offset="100%" style="stop-color: rgb(27 40 56); stop-opacity: 1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Copyright © 2025 samuelpasaribu.com -->
+    <text font-size="5" fill="grey" font-family="'system-ui', monospace" text-anchor="middle">
+        <textPath href="#innerCurve" startOffset="50%">www.haxorai.com</textPath>
+    </text>
+
+</svg>
