@@ -1,15 +1,14 @@
 # robots.txt for samuel.haxorai.com
-# Optimized for SEO, crawler friendliness, and Pagespeed validation
+# Optimized for SEO & Pagespeed
+
+User-agent: Mediapartners-Google
+Disallow:
 
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /config/
+Disallow:
 
-# Allow essential resources for rendering
-Allow: /css/
-Allow: /js/
-Allow: /img/
-
-# Sitemap
+Sitemap: https://samuel.haxorai.com/sitemap-pages.xml
 Sitemap: https://samuel.haxorai.com/sitemap.xml
+Sitemap: https://samuel.haxorai.com/sitemap2.xml
+Sitemap: https://samuel.haxorai.com/sitemap3.xml
+Sitemap: https://samuel.haxorai.com/sitemap4.xml
