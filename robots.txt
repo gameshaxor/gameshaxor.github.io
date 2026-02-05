@@ -1,30 +1,15 @@
-# =====================================================
 # robots.txt for samuel.haxorai.com
-# Optimized for SEO, Google Pagespeed, and crawler friendliness
-# Last updated: 2026-02-06
-# =====================================================
+# Optimized for SEO, crawler friendliness, and Pagespeed validation
 
-# Allow all search engines to crawl everything by default
 User-agent: *
-Disallow:
-
-# Block access to sensitive directories (adjust if you have private content)
 Disallow: /admin/
 Disallow: /private/
 Disallow: /config/
 
-# Allow access to JS, CSS, and images (important for SEO & rendering)
+# Allow essential resources for rendering
 Allow: /css/
 Allow: /js/
 Allow: /img/
 
-# Sitemap location (essential for search engines)
+# Sitemap
 Sitemap: https://samuel.haxorai.com/sitemap.xml
-
-# Crawl-delay (optional, avoid overloading server)
-# Crawl-delay: 10
-
-# Notes:
-# - No non-standard directives like "Content-Signal" to avoid Pagespeed errors
-# - Keep Disallow minimal to maximize SEO coverage
-# - Ensure all internal links are accessible for indexing
