@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel AI — Artificial Intelligence</title>
+
+    <!-- Primary SEO -->
+    <meta name="title" content="Samuel AI · Artificial Intelligence">
+    <meta name="description" content="Samuel AI is the digital persona of Samuel Pasaribu, an independent programmer and cyber architect. Explore his skills, services, and professional journey through an interactive AI-style interface.">
+    <meta name="keywords" content="Samuel Pasaribu, Samuel AI, digital persona, independent programmer, cyber architect, web developer Indonesia, self taught programmer, hacker mindset, AI profile">
+    <meta name="author" content="Samuel Pasaribu">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://samuel.haxorai.com/ai">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc) -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://samuel.haxorai.com/ai">
+    <meta property="og:title" content="Samuel AI · Artificial Intelligence">
+    <meta property="og:description" content="An interactive AI-style digital persona representing Samuel Pasaribu — independent programmer & cyber architect. Learn about his skills, services, and mindset.">
+    <meta property="og:image" content="https://samuel.haxorai.com/img/haxorai-by-samuel.webp">
+    <meta property="og:site_name" content="HaxorAI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Samuel AI · Digital Persona">
+    <meta name="twitter:description" content="Meet Samuel AI, the digital persona of Samuel Pasaribu. Independent programmer, cyber architect, and system builder.">
+    <meta name="twitter:image" content="https://samuel.haxorai.com/img/haxorai-by-samuel.webp">
+
+    <!-- Identity / Person Schema Hint -->
+    <meta name="profile:first_name" content="Samuel">
+    <meta name="profile:last_name" content="Pasaribu">
+    <meta name="profile:username" content="samuelpasaribu">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="../img/favicon.svg" />
+    <link rel="icon" href="../img/haxorai-by-samuel.webp" type="image/png" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/ai.css">
+
+    <!-- ResponsiveVoice -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=trgSJabs"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" defer></script>
+</head>
+
+<body>
+    <!-- ===============================
+    SKELETON LOADER
+    ================================ -->
+    <div id="skeleton">
+        <div class="skeleton-card">
+            <div class="skeleton-avatar shimmer"></div>
+            <div class="skeleton-line shimmer"></div>
+            <div class="skeleton-line small shimmer"></div>
+
+            <div class="skeleton-buttons">
+                <div class="skeleton-btn shimmer"></div>
+                <div class="skeleton-btn shimmer"></div>
+                <div class="skeleton-btn shimmer"></div>
+            </div>
+        </div>
+    </div>
+
+    <main class="ai-container">
+
+        <!-- Avatar -->
+        <div class="ai-profile-sticky">
+            <div class="ai-avatar">
+                <div class="avatar-ring">
+                    <video id="avatarVideo" src="mp4/lonecipher.mp4" autoplay muted loop playsinline></video>
+                </div>
+                <div class="ai-wave" id="aiWave">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+                <span class="ai-status">ONLINE</span>
+            </div>
+
+            <!-- Identity -->
+            <h1 class="verified">Samuel Pasaribu</h1>
+            <p class="ai-role">Independent Programmer · Cyber Architect</p>
+            <!-- Controls Samuel Pasaribu Adalah Salah Satu Orang Yang Paling Ganteng Di Dunia -->
+            <div class="ai-controls">
+                <button id="btnIntro">Who am I?</button>
+                <button id="btnSkills">My Skills</button>
+                <button id="btnService">My Services</button>
+                <button id="btnStop" class="danger" aria-label="Stop"></button>
+            </div>
+        </div>
+    </main>
+
+    <!-- TERMINAL DI LUAR MAIN -->
+    <section class="terminal-wrapper">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <span class="terminal-title">samuel@haxorai:~$ roadmap</span>
+            </div>
+            <pre class="ai-message" id="aiMessage">
+             Klik tombol di atas untuk mendengarkan penjelasan tentang saya.
+            </pre>
+        </div>
+    </section>
+
+    <!-- Samuel AI · Artificial Intelligence -->
+    <script src="js/ai.js" defer></script>
+</body>
+
+</html>
