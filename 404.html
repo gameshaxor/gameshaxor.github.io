@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="google" content="notranslate" />
+<meta name="author" content="Samuel Pasaribu" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="404 Not Found - HaxorAI Web Uploader" />
+<meta name="keywords" content="404, Not Found, HaxorAI, Hacker, Web Uploader" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="revisit-after" content="7 days" />
+<meta name="language" content="en" />
+
+<meta name="googlebot" content="noindex, nofollow"/>
+<meta name="Googlebot-Image" content="follow, all"/>
+
+<meta property="og:title" content="404 Not Found - HaxorAI Web Uploader" />
+<meta property="og:description" content="Sorry, the page you are looking for does not exist." />
+<meta property="og:image" content="https://samuel.haxorai.com/img/samuelpasaribu.webp" />
+<meta property="og:url" content="https://samuel.haxorai.com/404.html" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+
+<link rel="shortcut icon" href="https://web.haxorai.com/favicon.svg">
+
+<title>404 - Page Not Found</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    min-height:100vh;
+    font-family:Arial,sans-serif;
+    background:#111826;
+    color:#d3e3fd;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+}
+
+.error-image {
+    background-image: url(https://i.pinimg.com/originals/d0/66/78/d06678b0d250c806c08f67c0cae3be17.gif);
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 25px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(211, 227, 253, .08);
+}
+
+/* =========================
+   HACKER 404 EFFECT
+========================= */
+
+.error-code{
+    font-size:110px;
+    font-weight:900;
+    color:#ff3b3b;
+    letter-spacing:8px;
+    line-height:1;
+    text-shadow:
+        0 0 5px rgba(255,59,59,.5),
+        0 0 10px rgba(255,59,59,.3),
+        0 0 20px rgba(255,59,59,.2);
+
+    animation:
+        glitchShake 0.15s infinite,
+        blink404 2s infinite;
+}
+
+@keyframes glitchShake{
+
+    0%{
+        transform:translate(0,0);
+    }
+
+    25%{
+        transform:translate(-1px,1px);
+    }
+
+    50%{
+        transform:translate(1px,-1px);
+    }
+
+    75%{
+        transform:translate(-1px,-1px);
+    }
+
+    100%{
+        transform:translate(1px,1px);
+    }
+
+}
+
+@keyframes blink404{
+
+    0%,100%{
+        opacity:1;
+    }
+
+    45%{
+        opacity:1;
+    }
+
+    50%{
+        opacity:.3;
+    }
+
+    55%{
+        opacity:1;
+    }
+
+}
+
+.error-title{
+    font-size:24px;
+    font-weight:700;
+    margin-top:20px;
+}
+
+.error-desc{
+    margin-top:15px;
+    font-size:18px;
+    line-height:1.7;
+    color:#b7c7e4;
+}
+
+.error-desc code{
+    background:#1b2434;
+    color:#ff6b6b;
+    padding:4px 8px;
+    border-radius:4px;
+}
+
+/* =========================
+   HOME BUTTON SVG
+========================= */
+
+.back-btn{
+
+    width:60px;
+    height:60px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin:35px auto 0;
+
+    border-radius:12px;
+
+    background:#1b2434;
+
+    border:1px solid rgba(211,227,253,.08);
+
+    text-decoration:none;
+
+    transition:
+        transform .2s ease,
+        opacity .2s ease,
+        background .2s ease;
+}
+
+.back-btn:hover{
+    opacity:.85;
+}
+
+.back-btn::before{
+
+    content:"";
+
+    width:22px;
+    height:22px;
+
+    background:rgb(230 237 243);
+
+    mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z'/%3E%3C/svg%3E") center/contain no-repeat;
+
+    -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+
+.footer{
+    margin-top:25px;
+    font-size:13px;
+    color:#8ea2c7;
+    opacity:.8;
+}
+
+@media (max-width:600px){
+
+    .error-code{
+        font-size:80px;
+    }
+
+    .error-title{
+        font-size:20px;
+    }
+
+    .error-desc{
+        font-size:16px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="error-image"></div>
+
+    <h1 class="error-code">404</h1>
+
+    <div class="error-title">
+        Access Denied
+    </div>
+
+    <p class="error-desc">
+        The requested URL
+        <code id="requestedUrl">/</code>
+        was not found on this server.
+    </p>
+
+    <a
+        href="https://samuel.haxorai.com"
+        class="back-btn"
+        aria-label="Back to Home">
+    </a>
+
+    <div class="footer" id="liveDateTime">
+        haxorai.com
+    </div>
+
+</div>
+
+<script>
+document.getElementById("requestedUrl").textContent =
+    window.location.pathname || "/";
+
+// =========================
+// LIVE DATE TIME
+// =========================
+
+function updateDateTime(){
+
+    const now = new Date();
+
+    const text =
+        now.toLocaleString(
+            "en-US",
+            {
+                weekday: "long",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: false
+            }
+        );
+
+    document.getElementById(
+        "liveDateTime"
+    ).textContent = text;
+}
+
+updateDateTime();
+
+setInterval(
+    updateDateTime,
+    1000
+);
+</script>
+
+</body>
+</html>
