@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="https://samuel.haxorai.com/icon.png" />
     <link rel="icon" href="https://samuel.haxorai.com/icon.png" type="image/png" />
     <!-- Styles -->
-    <link rel="stylesheet" href="https://samuel.haxorai.com/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" defer></script>
 </head>
 
@@ -79,8 +79,8 @@
                     </div>
                     <!-- Profile Action Menu -->
                     <div class="profile-menu" id="profileMenu">
-                        <button id="viewStatus"><i class="view"></i> Open Status</button>                        
-                        <button id="viewProfile"><i class="profile"></i> Open Projects</button>
+                        <button id="viewStatus"><i class="view"></i> View Status</button>
+                        <button id="viewProfile"><i class="profile"></i> My Projects</button>
                         <button onclick="window.location.href='https://samuel.haxorai.com/ai'"><i class="about"></i> About Me</button>
                     </div>
 
@@ -94,7 +94,7 @@
                             <span class="dot yellow"></span>
                             <span class="dot green"></span>
 
-                            <span class="terminal-title">samuel@haxorai:~$ info</span>
+                            <span class="terminal-title">samuel@ai:~$ info</span>
 
                             <button class="terminal-run" id="runTerminal">RUN</button>
                         </div>
@@ -429,22 +429,29 @@ status=READY
         </div>
     </div>
 
-    <!-- MODAL -->
-    <div id="donationModal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h3 id="modalMethod">Donation Method</h3>
-            <p>Use the following number to donate:</p>
+    <!-- AI Assistant Floating Button -->
+    <div class="assistant-wrapper">
+        <div id="assistantBubble" class="assistant-bubble">
+            Hello 👋
+        </div>
+        <button id="assistantBtn" class="assistant-float" aria-label="Open Assistant">
+            <img src="img/emo.svg" alt="EMO Assistant">
+        </button>
+    </div>
 
-            <div id="modalNumberContainer">
-                <p id="modalNumber"></p>
-                <button id="copyBtn">Copy</button>
+    <!-- Assistant Modal -->
+    <div id="assistantModal" class="assistant-modal">
+        <div class="assistant-box">
+            <span class="assistant-close">&times;</span>
+            <div class="assistant-avatar">
+                <img src="img/emo.svg" alt="EMO Assistant">
             </div>
-
-            <img id="modalQRIS" class="qris" alt="QRIS">
-            <button id="whatsappBtn">Confirm via WhatsApp</button>
+            <h3>EMO Assistant</h3>
+            <p>Saya adalah <b>EMO</b>, asisten digital yang dikembangkan oleh <b>Samuel Pasaribu</b>. Saya menyimpan informasi tentang perjalanan, proyek, pengalaman, dan visi yang sedang ia bangun melalui teknologi. Jika Anda ingin mengenal siapa Samuel sebenarnya dan apa yang sedang ia kerjakan, klik tombol di bawah untuk melanjutkan.</p>
+            <a href="https://samuel.haxorai.com/emo" class="assistant-link"> Open Assistant</a>
         </div>
     </div>
+
     <!-- Di balik layar hitam, aku menari dengan bayangan, mengurai misteri semesta digital. Kode adalah puisiku, dan setiap celah adalah cerita yang belum terungkap. -->
     <script src="js/script.js" defer></script>
 </body>
