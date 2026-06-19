@@ -13,7 +13,7 @@
   </defs>
 
   <!-- Background Circle -->
-  <circle cx="200" cy="200" r="180" fill="#0d1117" stroke="url(#googleGradient)" stroke-width="4" />
+  <circle cx="200" cy="200" r="180" fill="#111826" stroke="url(#googleGradient)" stroke-width="4" />
 
   <!-- Face -->
   <rect x="97" y="103" rx="24" ry="24" width="202" height="194" stroke="#fff" stroke-width="6" fill="none"/>
