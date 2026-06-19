@@ -31,6 +31,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" defer></script>
+    <link rel="preload" as="image" href="img/samuelpasaribu.webp">
 </head>
 
 <body>
@@ -75,7 +76,7 @@
                 <section id="identity" class="active">
                     <!-- Profile Ring -->
                     <div class="profile-ring">
-                        <img src="img/samuelpasaribu.webp" alt="Samuel Pasaribu" />
+                        <img src="img/samuelpasaribu.webp" alt="Samuel Pasaribu" width="300" height="300" decoding="async" fetchpriority="high"/>
                     </div>
                     <!-- Profile Action Menu -->
                     <div class="profile-menu" id="profileMenu">
@@ -99,23 +100,8 @@
                             <button class="terminal-run" id="runTerminal">RUN</button>
                         </div>
 
-<pre class="terminal-body">
-#!/bin/sh
-# Personal Info
-
-Name: Samuel Pasaribu
-Email: samuelpasaribu3342@gmail.com
-Phone: 085960306011
-Date Of Birth: 09 November 199*
-mode=root
-
-modules="net db storage auth ui"
-
-enc_skills="Programming"
-
-identity="Portfolio | Samuel Pasaribu"
-
-status=READY
+<pre class="terminal-body" id="terminalBody">
+Loading system...
 </pre>
 
                     </div>
