@@ -1,0 +1,37 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="display:block; margin:auto;">
+  <defs>
+    <linearGradient id="googleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="25%" stop-color="#EA4335"/>
+      <stop offset="50%" stop-color="#FBBC05"/>
+      <stop offset="75%" stop-color="#34A853"/>
+      <stop offset="100%" stop-color="#4285F4"/>
+    </linearGradient>
+
+    <!-- Path for Curved Text -->
+    <path id="curveText" d="M100,290 A109,90 0 0,0 300,290" fill="none"/>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="180" fill="#0d1117" stroke="url(#googleGradient)" stroke-width="4" />
+
+  <!-- Face -->
+  <rect x="97" y="103" rx="24" ry="24" width="202" height="194" stroke="#fff" stroke-width="6" fill="none"/>
+
+  <!-- Ears -->
+  <rect x="78" y="160" width="16" height="60" rx="2" ry="2" fill="#d3d3d3" stroke="#fff" stroke-width="3"/>
+  <rect x="302" y="160" width="16" height="60" rx="2" ry="2" fill="#d3d3d3" stroke="#fff" stroke-width="3"/>
+
+  <!-- Ear Inner -->
+  <rect x="57" y="172" width="16" height="36" rx="2" ry="2" fill="#d3d3d3"/>
+  <rect x="323" y="172" width="16" height="36" rx="2" ry="2" fill="#d3d3d3"/>
+
+  <!-- Eyes -->
+  <rect x="126" y="150" width="60" height="40" rx="10" ry="10" fill="#20b2aa"/>
+  <rect x="217" y="150" width="60" height="40" rx="10" ry="10" fill="#20b2aa"/>
+
+  <!-- Mouth -->
+  <path d="M160 240 Q150 250 162 254" stroke="#fff" stroke-width="3" fill="none"/>
+  <line x1="160" y1="254" x2="240" y2="254" stroke="#fff" stroke-width="3"/>
+  <path d="M240 240 Q250 250 239 254" stroke="#fff" stroke-width="3" fill="none"/>
+</svg>
