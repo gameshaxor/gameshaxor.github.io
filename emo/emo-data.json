@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "id": "ethics_and_rules",
+      "label": "Apakah layanan ini menerima semua jenis proyek?"
+    },
+    {
+      "id": "who_is_samuel",
+      "label": "Siapa sebenarnya Samuel?"
+    },
+    {
+      "id": "what_is_he_doing",
+      "label": "Apa yang sedang dia bangun saat ini?"
+    },
+    {
+      "id": "what_is_programming",
+      "label": "Apa itu coding dan siapa itu programmer?"
+    },
+    {
+      "id": "what_is_website_app",
+      "label": "Apa itu website dan aplikasi dalam dunia nyata?"
+    },
+    {
+      "id": "how_to_make_money",
+      "label": "Bagaimana website dan aplikasi bisa menghasilkan uang?"
+    },
+    {
+      "id": "business_use_case",
+      "label": "Bisnis apa saja yang membutuhkan website dan aplikasi?"
+    },
+    {
+      "id": "what_is_his_skill",
+      "label": "Apa keahlian yang dimiliki Samuel?"
+    },
+    {
+      "id": "what_is_his_vision",
+      "label": "Apa tujuan besar dari pekerjaannya?"
+    }
+  ],
+
+  "answers": {
+    "ethics_and_rules": "Tidak semua proyek diterima. Fokus utama adalah membangun sistem digital yang legal, aman, dan bermanfaat. Proyek seperti judi online, konten ilegal, atau sistem yang merugikan orang lain tidak akan dikerjakan. Prinsipnya adalah membangun teknologi yang bisa bertahan dan punya nilai jangka panjang.",
+
+    "who_is_samuel": "Samuel adalah seorang digital builder yang bekerja di balik layar untuk membangun sistem, website, dan eksperimen teknologi. Ia bukan hanya pengguna teknologi, tetapi seseorang yang memahami cara membentuk sistem dari nol dan membuatnya berjalan.",
+
+    "what_is_he_doing": "Saat ini dia sedang membangun ekosistem digital kecil melalui HaxorAI, yang berisi eksperimen web, UI interaktif, dan konsep sistem berbasis teknologi. Tujuannya adalah menciptakan pondasi produk digital yang bisa berkembang menjadi sesuatu yang nyata di masa depan.",
+
+    "what_is_programming": "Coding adalah cara manusia memberikan instruksi kepada komputer agar bisa menjalankan tugas tertentu. Programmer adalah orang yang merancang cara berpikir sistem tersebut. Mereka bukan hanya menulis kode, tetapi menyusun logika agar sebuah ide bisa berubah menjadi aplikasi nyata yang bisa digunakan banyak orang.",
+
+    "what_is_website_app": "Website dan aplikasi adalah produk digital yang digunakan manusia setiap hari. Website diakses melalui browser, sedangkan aplikasi bisa berjalan di web, mobile, atau perangkat lain. Keduanya adalah alat untuk menyampaikan layanan, sistem, atau solusi kepada pengguna secara langsung di dunia digital.",
+
+    "how_to_make_money": "Website dan aplikasi bisa menghasilkan uang jika memberikan solusi nyata. Modelnya bisa berupa jasa, iklan, langganan, sistem premium, atau produk digital. Intinya bukan pada teknologinya saja, tetapi pada masalah apa yang bisa diselesaikan untuk orang lain atau bisnis.",
+
+    "business_use_case": "Hampir semua bisnis modern membutuhkan website atau aplikasi: toko online, perusahaan teknologi, edukasi, keuangan, startup, portofolio, hingga sistem internal perusahaan. Dunia bisnis saat ini bergerak ke arah digital, sehingga website dan aplikasi menjadi kebutuhan utama.",
+
+    "what_is_his_skill": "Keahlian utamanya ada pada pengembangan web, UI engineering, sistem frontend interaktif, dan eksperimen teknologi berbasis web. Selain itu, ia juga memiliki fokus pada performa sistem, struktur kode yang efisien, serta ketertarikan pada cyber security.",
+
+    "what_is_his_vision": "Membangun ekosistem teknologi yang tumbuh dari satu individu menjadi sistem yang memiliki dampak nyata. Tujuannya bukan hanya membuat produk, tetapi menciptakan identitas digital yang kuat, berguna, dan bisa berkembang menjadi startup atau sistem berskala lebih besar."
+  }
+}
