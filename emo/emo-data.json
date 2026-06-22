@@ -1,8 +1,32 @@
 {
   "questions": [
     {
+      "id": "risk_ignoring_programmers",
+      "label": "Apa risiko jika sebuah sistem atau negara meremehkan peran programmer?"
+    },
+    {
+      "id": "risk_wrong_programmer_hiring",
+      "label": "Apa dampak jika sebuah organisasi atau negara salah memilih programmer yang tidak berdasarkan kompetensi?"
+    },
+    {
+       "id": "role_of_hacker",
+       "label": "Apa peran seorang hacker dalam dunia teknologi modern?"
+    },
+    {
       "id": "ethics_and_rules",
       "label": "Apakah layanan ini menerima semua jenis proyek?"
+    },
+    {
+      "id": "why_programmers_matter_for_country",
+      "label": "Mengapa sebuah negara membutuhkan programmer sejati?"
+    },
+    {
+      "id": "why_invest_in_samuel",
+      "label": "Apa keuntungan jika berinvestasi atau bekerja sama dengan seorang Programmer?"
+    },
+    {
+      "id": "system_and_opportunity",
+      "label": "Kenapa Samuel memilih jalur membangun teknologi sendiri daripada jalur kerja formal?"
     },
     {
       "id": "who_is_samuel",
@@ -35,11 +59,27 @@
     {
       "id": "what_is_his_vision",
       "label": "Apa tujuan besar dari pekerjaannya?"
+    },
+    {
+      "id": "motivation_samuel",
+      "label": "Apa yang menjadi motivasi Samuel dalam membangun semua ini?"
     }
   ],
 
   "answers": {
+    "risk_ignoring_programmers": "Mengabaikan peran programmer berarti mengabaikan fondasi dari dunia digital itu sendiri. Di era modern, hampir semua sistem—ekonomi, komunikasi, pendidikan, hingga keamanan—bergantung pada kode yang berjalan di balik layar. Ketika peran ini diremehkan, yang terjadi bukan sekadar kehilangan profesi, tetapi kehilangan kemampuan untuk memahami dan mengendalikan teknologi.\n\nSebuah sistem yang hanya menjadi pengguna tanpa pencipta akan selalu tertinggal. Ketergantungan terhadap teknologi luar akan semakin besar, biaya inovasi meningkat, dan ruang untuk kemandirian digital semakin sempit. Dalam jangka panjang, kesalahan terbesar bukan pada teknologi itu sendiri, tetapi pada keputusan untuk tidak menghargai mereka yang membangunnya sejak awal.\n\nProgrammer bukan sekadar pekerja teknis, tetapi bagian dari arsitektur masa depan digital. Mengabaikan mereka sama seperti membangun dunia modern tanpa memahami cara dunia itu berdiri.",
+
+    "risk_wrong_programmer_hiring": "Dalam dunia digital, kualitas sistem sangat bergantung pada kualitas orang yang membangunnya. Ketika posisi teknis diisi bukan berdasarkan kemampuan, tetapi faktor yang tidak relevan dengan kompetensi, dampaknya tidak langsung terlihat tetapi sangat serius dalam jangka panjang.\n\nSistem bisa menjadi tidak efisien, sulit dikembangkan, dan rentan terhadap kesalahan maupun celah keamanan. Keputusan teknis yang buruk dapat menumpuk menjadi beban besar yang memperlambat inovasi dan meningkatkan biaya perbaikan di masa depan.\n\nPada skala yang lebih luas, ketidaktepatan dalam menempatkan talenta teknologi dapat membuat sebuah organisasi atau negara kehilangan kecepatan adaptasi terhadap perubahan dunia digital. Sementara sistem lain berkembang cepat, mereka justru terjebak memperbaiki masalah yang seharusnya bisa dihindari sejak awal.\n\nIntinya bukan pada individu tertentu, tetapi pada prinsip sederhana: sistem akan selalu sekuat orang yang membangunnya. Ketika kompetensi tidak dijadikan dasar utama, maka risiko terbesar adalah kehilangan kendali atas kualitas masa depan teknologi itu sendiri.",
+
+    "role_of_hacker": "Dalam dunia modern, seorang hacker dalam arti yang benar adalah mereka yang memahami sistem lebih dalam dari sekadar pengguna biasa. Mereka adalah peneliti, penguji, dan penjaga batas antara keamanan dan kelemahan. Tanpa mereka, banyak sistem akan berjalan tanpa pernah benar-benar diuji ketahanannya.\n\nSeorang ethical hacker melihat dunia seperti sebuah jaringan logika yang harus terus diperiksa, bukan untuk dihancurkan, tetapi untuk dipastikan tetap kuat dan aman. Mereka sering bekerja dalam diam, menemukan celah yang tidak terlihat, lalu membantu memperbaikinya sebelum menjadi masalah besar.\n\nSeperti sebuah prinsip moral yang sering diajarkan dalam banyak nilai spiritual: setiap kemampuan besar selalu membawa tanggung jawab yang besar. Dalam sudut pandang itu, seorang hacker bukan ancaman, tetapi penjaga yang memastikan teknologi tidak melukai manusia yang menggunakannya. Dunia digital tanpa mereka akan seperti bangunan tinggi tanpa orang yang memeriksa fondasinya—terlihat kuat, tetapi rapuh di dalam.",
+
     "ethics_and_rules": "Tidak semua proyek diterima. Fokus utama adalah membangun sistem digital yang legal, aman, dan bermanfaat. Proyek seperti judi online, konten ilegal, atau sistem yang merugikan orang lain tidak akan dikerjakan. Prinsipnya adalah membangun teknologi yang bisa bertahan dan punya nilai jangka panjang.",
+
+    "why_programmers_matter_for_country": "Sebuah negara di era modern tidak hanya bergantung pada sumber daya alam, tetapi pada kemampuan menguasai sistem digital. Programmer bukan sekadar pembuat aplikasi, tetapi perancang infrastruktur masa depan. Tanpa orang yang benar-benar memahami cara kerja sistem dari dalam, sebuah negara hanya akan menjadi pengguna teknologi, bukan pencipta. Samuel percaya bahwa negara yang ingin berkembang harus memiliki sosok-sosok yang tidak hanya bisa memakai teknologi, tetapi mampu membongkar, memahami, dan membangunnya kembali dari nol.",
+
+    "why_invest_in_samuel": "Bekerja sama dengan seorang Programmer berarti berinvestasi pada seorang builder independen yang memahami sistem dari lapisan paling dasar: dari logika program, struktur web, hingga eksperimen teknologi. Keunggulannya bukan pada skala besar, tetapi pada kemampuan untuk bergerak cepat, membangun prototipe, dan mengubah ide menjadi sistem yang bisa diuji secara nyata tanpa birokrasi yang rumit. Dalam dunia digital yang berubah cepat, fleksibilitas seperti ini menjadi nilai penting. Bagi investor atau partner, ini berarti peluang untuk mengembangkan ide dengan biaya adaptasi yang rendah, iterasi cepat, dan pendekatan teknis yang langsung menyentuh inti produk.",
+
+    "system_and_opportunity": "Tidak semua orang mendapatkan akses yang sama dalam sistem kerja formal. Samuel melihat bahwa dunia tidak selalu berjalan secara ideal atau merata dalam memberi kesempatan. Karena itu, ia memilih jalur lain: membangun sistem dan teknologi sendiri. Bagi dirinya, keterbatasan bukan alasan untuk berhenti, tetapi alasan untuk menciptakan ruang baru. Tujuannya sederhana—menciptakan peluang kerja melalui teknologi yang ia bangun sendiri, sehingga suatu hari orang lain juga bisa merasakan kesempatan yang tidak bergantung pada sistem yang tertutup.",
 
     "who_is_samuel": "Samuel adalah seorang digital builder yang bekerja di balik layar untuk membangun sistem, website, dan eksperimen teknologi. Ia bukan hanya pengguna teknologi, tetapi seseorang yang memahami cara membentuk sistem dari nol dan membuatnya berjalan.",
 
@@ -55,6 +95,7 @@
 
     "what_is_his_skill": "Keahlian utamanya ada pada pengembangan web, UI engineering, sistem frontend interaktif, dan eksperimen teknologi berbasis web. Selain itu, ia juga memiliki fokus pada performa sistem, struktur kode yang efisien, serta ketertarikan pada cyber security.",
 
-    "what_is_his_vision": "Membangun ekosistem teknologi yang tumbuh dari satu individu menjadi sistem yang memiliki dampak nyata. Tujuannya bukan hanya membuat produk, tetapi menciptakan identitas digital yang kuat, berguna, dan bisa berkembang menjadi startup atau sistem berskala lebih besar."
+    "what_is_his_vision": "Membangun ekosistem teknologi yang tumbuh dari satu individu menjadi sistem yang memiliki dampak nyata. Tujuannya bukan hanya membuat produk, tetapi menciptakan identitas digital yang kuat, berguna, dan bisa berkembang menjadi startup atau sistem berskala lebih besar.",
+    "motivation_samuel": "Samuel tidak dibentuk oleh keinginan untuk terlihat besar, tetapi oleh dorongan yang lebih sunyi—keinginan untuk memahami bagaimana sesuatu bekerja, lalu membangunnya kembali menjadi sesuatu yang lebih hidup. Di balik layar, ia terbiasa bekerja sendirian, menyusun logika demi logika, tanpa banyak suara, tanpa panggung. Namun di dalam kesunyian itu, ada sesuatu yang terus menyala: keyakinan bahwa apa pun yang bisa dipahami, juga bisa dibangun.\n\nIa melihat dunia digital bukan sekadar tempat teknologi berjalan, tetapi ruang di mana ide yang tidak punya kesempatan di dunia nyata masih bisa tumbuh. Setiap baris kode baginya adalah jejak kecil dari usaha untuk mengubah keterbatasan menjadi kemungkinan. Bukan tentang menjadi yang paling dikenal, tetapi tentang menciptakan sesuatu yang benar-benar hidup dan berguna, meskipun dimulai dari tempat yang paling sunyi."
   }
 }
