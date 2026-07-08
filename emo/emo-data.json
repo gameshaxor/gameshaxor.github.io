@@ -1,78 +1,79 @@
 {
-"questions": [
-{
-"id": "who_is_samuel",
-"label": "Siapa Samuel?"
-},
-{
-"id": "current_project",
-"label": "Apa yang sedang dibangun?"
-},
-{
-"id": "skills",
-"label": "Apa keahliannya?"
-},
-{
-"id": "vision",
-"label": "Apa visinya?"
-},
-{
-"id": "motivation",
-"label": "Apa motivasinya?"
-},
-{
-"id": "programming",
-"label": "Apa itu programming?"
-},
-{
-"id": "website_app",
-"label": "Apa itu website dan aplikasi?"
-},
-{
-"id": "digital_business",
-"label": "Bagaimana produk digital menghasilkan nilai?"
-},
-{
-"id": "technology_role",
-"label": "Mengapa teknologi penting?"
-},
-{
-"id": "cybersecurity",
-"label": "Apa peran cyber security?"
-},
-{
-"id": "collaboration",
-"label": "Mengapa kolaborasi teknologi penting?"
-},
-{
-"id": "ethics",
-"label": "Proyek seperti apa yang didukung?"
-}
-],
+  "questions": [
+    {
+      "id": "what_is_haxorai",
+      "label": "Apa itu HaxorAI?"
+    },
+    {
+      "id": "web_app",
+      "label": "Apa itu Web App?"
+    },
+    {
+      "id": "coding",
+      "label": "Apa itu Coding?"
+    },
+    {
+      "id": "website_value",
+      "label": "Mengapa bisnis membutuhkan website?"
+    },
+    {
+      "id": "digital_product",
+      "label": "Apa itu produk digital?"
+    },
+    {
+      "id": "services",
+      "label": "Layanan apa yang tersedia?"
+    },
+    {
+      "id": "security",
+      "label": "Mengapa keamanan penting?"
+    },
+    {
+      "id": "automation",
+      "label": "Apa manfaat otomatisasi?"
+    },
+    {
+      "id": "technology",
+      "label": "Bagaimana teknologi mengubah masa depan?"
+    },
+    {
+      "id": "mindset",
+      "label": "Bagaimana cara berpikir seorang programmer?"
+    },
+    {
+      "id": "collaboration",
+      "label": "Mengapa membangun bersama lebih baik?"
+    },
+    {
+      "id": "philosophy",
+      "label": "Apa filosofi HaxorAI?"
+    }
+  ],
 
-"answers": {
-"who_is_samuel": "Samuel adalah seorang web developer dan digital builder yang berfokus pada pengembangan sistem, website, antarmuka interaktif, dan eksperimen teknologi berbasis web.",
+  "answers": {
 
-"current_project": "Saat ini Samuel sedang mengembangkan berbagai proyek digital melalui HaxorAI, mulai dari eksperimen web, sistem interaktif, hingga konsep produk yang dirancang untuk terus berkembang.",
+    "what_is_haxorai": "HaxorAI bukan sekadar nama, melainkan ruang untuk membangun ide menjadi sesuatu yang dapat digunakan. Di balik setiap baris kode terdapat usaha untuk membuat teknologi terasa sederhana, cepat, dan bermanfaat bagi banyak orang.",
 
-"skills": "Fokus utamanya meliputi pengembangan web, frontend engineering, desain antarmuka, optimasi performa, struktur sistem, dan cyber security.",
+    "web_app": "Web App adalah aplikasi yang berjalan melalui browser tanpa perlu instalasi rumit. Ia seperti sebuah ruang kerja digital yang selalu siap diakses selama ada koneksi internet, memungkinkan bisnis dan pengguna bekerja dari mana saja.",
 
-"vision": "Membangun teknologi yang bermanfaat, mudah digunakan, dan memiliki dampak nyata bagi pengguna maupun komunitas digital.",
+    "coding": "Coding bukan sekadar mengetik karakter di layar. Coding adalah bahasa yang digunakan untuk berbicara dengan mesin. Seperti seorang arsitek yang menggambar denah sebelum membangun rumah, programmer menulis kode sebelum sebuah ide dapat hidup.",
 
-"motivation": "Keinginan untuk terus belajar, memahami cara kerja sistem, dan mengubah ide menjadi solusi nyata yang dapat digunakan banyak orang.",
+    "website_value": "Website adalah kantor yang tidak pernah tutup. Saat pemilik bisnis sedang beristirahat, website tetap menjelaskan produk, menerima calon pelanggan, membangun kepercayaan, dan menjadi wajah perusahaan di dunia digital.",
 
-"programming": "Programming adalah proses memberikan instruksi kepada komputer untuk menyelesaikan tugas tertentu. Melalui coding, ide dapat diubah menjadi sistem dan produk digital yang berfungsi.",
+    "digital_product": "Produk digital tidak selalu berupa aplikasi besar. Sebuah website, dashboard, sistem manajemen, atau alat sederhana yang mampu menghemat waktu seseorang juga merupakan produk yang memiliki nilai nyata.",
 
-"website_app": "Website dan aplikasi adalah layanan digital yang membantu pengguna mengakses informasi, menjalankan proses bisnis, berkomunikasi, dan menyelesaikan berbagai kebutuhan secara online.",
+    "services": "HaxorAI menyediakan pengembangan Company Profile Website, Portfolio Website, Custom Web Application, Digital Invitation, serta layanan Source Code Protection untuk membantu bisnis membangun identitas digital yang profesional.",
 
-"digital_business": "Produk digital menghasilkan nilai ketika mampu membantu pengguna menyelesaikan masalah, meningkatkan efisiensi, atau menyediakan layanan yang dibutuhkan.",
+    "security": "Sistem yang baik bukan hanya berjalan dengan cepat, tetapi juga mampu menjaga data tetap aman. Keamanan digital ibarat fondasi sebuah bangunan—jarang terlihat, tetapi menentukan seberapa lama bangunan itu dapat berdiri.",
 
-"technology_role": "Teknologi membantu mempercepat pekerjaan, meningkatkan produktivitas, dan membuka peluang baru dalam berbagai bidang kehidupan.",
+    "automation": "Otomatisasi mengurangi pekerjaan yang berulang sehingga manusia dapat lebih fokus pada kreativitas dan pengambilan keputusan. Mesin bekerja untuk menghemat waktu, sementara manusia menggunakan waktu itu untuk menciptakan nilai baru.",
 
-"cybersecurity": "Cyber security berperan menjaga keamanan sistem, data, dan pengguna dari risiko gangguan, penyalahgunaan, maupun ancaman digital.",
+    "technology": "Teknologi tidak menggantikan manusia. Teknologi memperbesar kemampuan manusia. Sebuah ide kecil dapat menjangkau ribuan orang ketika diwujudkan melalui perangkat lunak yang dirancang dengan baik.",
 
-"collaboration": "Kolaborasi memungkinkan ide, kemampuan, dan pengalaman yang berbeda untuk digabungkan menjadi solusi yang lebih kuat dan bermanfaat.",
+    "mindset": "Seorang programmer melihat masalah seperti teka-teki, bukan hambatan. Ketika orang lain melihat kerumitan, ia mulai mencari pola. Ketika menemukan pola, solusi perlahan muncul dari balik setiap baris logika.",
 
-"ethics": "Fokus utama adalah membangun proyek yang legal, aman, dan memberikan manfaat jangka panjang. Proyek yang merugikan pengguna atau melanggar hukum tidak didukung."
-}
+    "collaboration": "Tidak ada sistem besar yang dibangun sendirian. Ide berkembang ketika pengetahuan, pengalaman, dan sudut pandang yang berbeda saling melengkapi. Kolaborasi menjadikan teknologi lebih matang daripada sekadar hasil kerja individu.",
+
+    "philosophy": "Di balik layar, seorang hacker introvert tidak sibuk mencari perhatian. Ia lebih memilih memperbaiki satu bug daripada menjelaskan seribu alasan. Sebab pada akhirnya, kualitas selalu berbicara lebih lantang daripada kata-kata."
+  }
 }
